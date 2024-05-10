@@ -31,16 +31,16 @@ header p {
 }
 
 main {
-  padding: 2rem 2.5rem;
+  padding: 3rem 2.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.7rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
 }
 
 main .use-of-english {
-  font-size: 120px;
+  font-size: 150px;
   font-weight: 600;
   text-align: center;
   letter-spacing: 0.5rem;
@@ -89,6 +89,16 @@ footer .names {
 
 /* Mobile Design */
 @media screen and (min-width: 320px) and (max-width: 650px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: 'Lato';
+  }
+
   header {
     padding: 2rem 2.5rem;
     background-color: #1b262f;
@@ -104,10 +114,10 @@ footer .names {
   }
 
   main {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
   }
